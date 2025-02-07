@@ -1,0 +1,23 @@
+body {
+    font-family: "Jersey 20", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   
+     
+    button {
+      border-radius: 15px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease;
+    }
+   
+    button:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    }
+   
+    .result-section h2 {
+      color: #f39c12;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+  

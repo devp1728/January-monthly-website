@@ -25,9 +25,11 @@
         </div>
         <div id="gameSection" class="d-none">
             <div class="row justify-content-center mb-4">
-                <button class="col-3 btn btn-outline-light p-3" id="rock">Rock</button>
-                <button class="col-3 btn btn-outline-light p-3 mx-3" id="paper">Paper</button>
-                <button class="col-3 btn btn-outline-light p-3" id="scissors">Scissors</button>
+                <button class="col-3 btn btn-outline-light p-3" id="rock" onclick="playGame('rock')">Rock</button>
+                <button class="col-3 btn btn-outline-light p-3 mx-3" id="paper"
+                    onclick="playGame('paper')">Paper</button>
+                <button class="col-3 btn btn-outline-light p-3" id="scissors"
+                    onclick="playGame('scissors')">Scissors</button>
             </div>
             <h2 id="userChoice"></h2>
             <h2 id="aiChoice"></h2>
